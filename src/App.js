@@ -1,11 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import Main from './components/MainComponent';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <Main />
+    <BrowserRouter>
+      <Main />
+    </BrowserRouter>
   );
 }
 

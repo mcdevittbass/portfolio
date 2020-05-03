@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import {Card, CardBody, Row, Col, Container, CardText, CardHeader, Jumbotron} from 'reactstrap';
+import {Row, Col, Container, Jumbotron, Button} from 'reactstrap';
+import { NavLink } from 'react-router-dom';
 
 
 class Intro extends Component {
@@ -33,12 +34,21 @@ class Intro extends Component {
                 <Container className="h-100 mt-10">
                     <Row>
                         <Col className="col col-sm-6 offset-sm-3">
-                            <Jumbotron style={{backgroundColor: bgColor}} className="intro-card mx-auto" onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
+                            <Jumbotron style={{backgroundColor: bgColor}} 
+                                className="intro-card mx-auto" 
+                                onMouseEnter={this.handleMouseEnter} 
+                                onMouseLeave={this.handleMouseLeave}>
                                 <div style={{display: noDisplay}}>
-                                    <h1 className="display-4 text-center">Megan McDevitt</h1>
+                                    <h1 className="text-center">Megan McDevitt</h1>
                                     <h3 className="lead text-center">The best <span style={{fontWeight: 'bold', color: '#83C5BE'}}>Full Stack Developer</span> on the planet...</h3>
                                 </div>
-                                <h1 style={{display: display}} className="text-center">Depending on the planet...</h1>
+                                <div style={{display: display}} className="text-center">
+                                    <h1>Depending on the planet...</h1>
+                                    <hr class="my-4" />
+                                    <NavLink to="/info">
+                                        <Button id="moreButton">More about Megan</Button>
+                                    </NavLink>
+                                </div>
                             </Jumbotron>
                         </Col>
                     </Row>
@@ -48,15 +58,3 @@ class Intro extends Component {
     }
 }
 export default Intro;
-
-/*<Row></Row>
-                    <Row className="h-100">
-                        <Col className="my-auto">
-                            <Card className="mx-auto intro-card card card-block w-50 p-4">
-                            <CardHeader className="align-items-center">Megan McDevitt</CardHeader>
-                            <CardBody>
-                                <CardText>The best Full Stack Developer on the planet...</CardText>
-                            </CardBody>
-                            </Card>
-                        </Col>
-                    </Row>*/

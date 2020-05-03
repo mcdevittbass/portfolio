@@ -1,0 +1,45 @@
+$dark-theme: #011638;
+$neutral-theme: #364156;
+$light-theme: #BDD6E1;
+$white-ish: #d3d3d3;
+$fancy-text: 'Dancing Script', cursive;
+$chill-text: 'Quicksand', sans-serif;
+
+body {
+  background-color: $light-theme;
+}
+.bio {
+  background-color: $dark-theme;
+  color: $white-ish;
+  font-family: $chill-text;
+}
+.intro-card {
+  background-color:$neutral-theme;
+  color: $white-ish;
+  border: solid;
+  border-width: 2px;
+  border-color: $dark-theme;
+  margin: 10rem;
+}
+.header-card {
+  color: $dark-theme;
+  font-family: $fancy-text;
+  font-size: 4rem;
+}
+.intro-card h1 {
+  font-family: $fancy-text;
+  font-size: 4rem;
+}
+.intro-card h3 {
+  font-family: $chill-text;
+}
+.projectCard {
+  background-color: $neutral-theme;
+  color: $white-ish;
+  font-family: $chill-text;
+}
+#moreButton{
+  font-family: $chill-text;
+  font-size: 1em;
+  background-color:$neutral-theme;
+}
