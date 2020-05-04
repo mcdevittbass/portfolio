@@ -10,7 +10,6 @@ import SectionBreak from './SectionBreak';
 export const InfoPage = (props) => {
     return (
         <React.Fragment>
-            
                 <Header />
                 <Bio />
                 <SectionBreak text='Recent Projects' />
