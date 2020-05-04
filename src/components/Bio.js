@@ -4,7 +4,7 @@ import { Row, Col, Card} from 'reactstrap';
 const Bio = (props) => {
     return (
         <React.Fragment>
-            <Row className='bio-background py-3 px-0'>
+            <Row className='bio-background py-3 px-0' style={{background-image: `url(${baseUrl}'/img/plant2.jpeg')`}}>
                 <Col className='col-9 col-md-8 mx-auto p-0'>
                     <Card className='bio mx-auto p-4 h-100'>
                     <p>

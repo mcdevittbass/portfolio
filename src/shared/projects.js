@@ -1,3 +1,5 @@
+import { baseUrl } from '../shared/baseUrl';
+
 export const PROJECTS = [
     {
         key: 0,
@@ -7,7 +9,7 @@ export const PROJECTS = [
         code: 'https://github.com/mcdevittbass/FivePointsBakeryBootstrap',
         site: 'https://mcdevittbass.github.io/FivePointsBakeryBootstrap/',
         text: 'The Five Points Bakery website began as a design using Bootstrap. It includes modals, carousels, and custom buttons. I later converted it to React. It should be launching as their official website in 2020.',
-        thumbnail: '/img/FP-Homepage-cropped.png',
+        thumbnail: baseUrl + '/img/FP-Homepage-cropped.png',
         alt: 'Five Points Bakery, Bootstrap'
     },
     {
@@ -18,7 +20,7 @@ export const PROJECTS = [
         code: 'https://github.com/mcdevittbass/FivePointsReact',
         site: 'https://mcdevittbass.github.io/FivePointsReact/',
         text: 'The Five Points Bakery website began as a design using Bootstrap. I later converted it to React. Many of the components are reusable (and reused!) blocks of code. It should be launching as their official website in 2020.',
-        thumbnail: '/img/FP-events-cropped.png',
+        thumbnail: baseUrl + '/img/FP-events-cropped.png',
         alt: 'Five Points Bakery, React'
     },
     {
@@ -28,7 +30,7 @@ export const PROJECTS = [
         code: 'https://github.com/mcdevittbass/portfolio',
         site: '#',
         text: 'I hope you are enjoying this website I created in React!',
-        thumbnail: '/img/portfolio-site-whole.png',
+        thumbnail: baseUrl + '/img/portfolio-site-whole.png',
         alt: 'Portfolio Site, Megan McDevitt'
     }
 ];
