@@ -1,10 +1,11 @@
 import React from 'react';
 import { Row, Col, Card} from 'reactstrap';
+import { baseUrl } from '../shared/baseUrl';
 
 const Bio = (props) => {
     return (
         <React.Fragment>
-            <Row className='bio-background py-3 px-0' style={{background-image: `url(${baseUrl}'/img/plant2.jpeg')`}}>
+            <Row className='bio-background py-3 px-0' style={{backgroundImage: `url(${baseUrl}'/img/plant2.jpeg')`}}>
                 <Col className='col-9 col-md-8 mx-auto p-0'>
                     <Card className='bio mx-auto p-4 h-100'>
                     <p>
