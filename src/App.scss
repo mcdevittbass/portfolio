@@ -13,6 +13,30 @@ body {
   color: $white-ish;
   font-family: $chill-text;
 }
+.bio-background {
+  background-image: url('/img/plant2.jpeg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 15%;
+  background-color: inherit;
+}
+
+.header-card h1 {
+  color: $dark-theme;
+  font-family: $fancy-text;
+  font-size: 4rem;
+}
+.header-card h4 {
+  color: $dark-theme;
+  font-family: $chill-text;
+}
+.header-icon {
+  background-color: inherit;
+  border: none;
+  color: white;
+  align-items: 'center';
+}
 .intro-card {
   background-color:$neutral-theme;
   color: $white-ish;
@@ -20,11 +44,6 @@ body {
   border-width: 2px;
   border-color: $dark-theme;
   margin: 10rem;
-}
-.header-card {
-  color: $dark-theme;
-  font-family: $fancy-text;
-  font-size: 4rem;
 }
 .intro-card h1 {
   font-family: $fancy-text;
@@ -37,6 +56,11 @@ body {
   background-color: $neutral-theme;
   color: $white-ish;
   font-family: $chill-text;
+}
+.section {
+  background-color: inherit;
+  color: $dark-theme;
+  font-family: $fancy-text;
 }
 #moreButton{
   font-family: $chill-text;

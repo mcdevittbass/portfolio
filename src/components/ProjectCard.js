@@ -2,15 +2,13 @@ import React, { Component } from 'react';
 import { Card, CardBody, CardImg, Col, CardTitle, CardText} from 'reactstrap';
 
 class ProjectCard extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
-        const siteBtnConst = <a className='btn btn-secondary m-2'
-                                roll='button' href={this.props.items.site}
+        const siteBtnConst = <a className='btn btn-secondary mx-2'
+                                roll='button' 
+                                href={this.props.items.site}
                                 target='_blank'
-                                rel='noopener noreferrer'>Site</a>
+                                rel='noopener noreferrer'>
+                                    Site</a>
         const siteButton = this.props.items.site ? siteBtnConst : <div />;    
         return (
             <Col className='col-12 col-md-4'>    
@@ -20,10 +18,12 @@ class ProjectCard extends Component {
                         <CardTitle>{this.props.items.title}</CardTitle>
                         <CardTitle>{this.props.items.subtitle}</CardTitle>
                         <CardText>{this.props.items.text}</CardText>
-                        <a className='btn btn-secondary m-2'
-                            roll='button' href={this.props.items.code}
+                        <a className='btn btn-secondary mx-2'
+                            roll='button' 
+                            href={this.props.items.code}
                             target='_blank'
-                            rel='noopener noreferrer'>Code</a>
+                            rel='noopener noreferrer'>
+                                Code</a>
                         {siteButton}
                     </CardBody>
                 </Card>

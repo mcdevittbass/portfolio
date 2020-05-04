@@ -7,7 +7,7 @@ export const PROJECTS = [
         code: 'https://github.com/mcdevittbass/FivePointsBakeryBootstrap',
         site: 'https://mcdevittbass.github.io/FivePointsBakeryBootstrap/',
         text: 'The Five Points Bakery website began as a design using Bootstrap. It includes modals, carousels, and custom buttons. I later converted it to React. It should be launching as their official website in 2020.',
-        thumbnail: '/img/FP-Homepage.png',
+        thumbnail: '/img/FP-Homepage-cropped.png',
         alt: 'Five Points Bakery, Bootstrap'
     },
     {
@@ -18,7 +18,7 @@ export const PROJECTS = [
         code: 'https://github.com/mcdevittbass/FivePointsReact',
         site: 'https://mcdevittbass.github.io/FivePointsReact/',
         text: 'The Five Points Bakery website began as a design using Bootstrap. I later converted it to React. Many of the components are reusable (and reused!) blocks of code. It should be launching as their official website in 2020.',
-        thumbnail: '/img/FP-events.png',
+        thumbnail: '/img/FP-events-cropped.png',
         alt: 'Five Points Bakery, React'
     },
     {
