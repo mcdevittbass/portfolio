@@ -1,6 +1,6 @@
 import React from 'react';
 import { Header } from './Header';
-import { Container, Row, Col, Card, CardText} from 'reactstrap';
+import { Row, Col, Card, CardText} from 'reactstrap';
 import Bio from './Bio';
 import ProjectCard from './ProjectCard';
 import { PROJECTS } from '../shared/projects';

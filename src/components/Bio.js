@@ -2,12 +2,13 @@ import React from 'react';
 import { Row, Col, Card} from 'reactstrap';
 import { baseUrl } from '../shared/baseUrl';
 
+//Bio in a reactstrap card for clean design/rounded edges
 const Bio = (props) => {
     return (
         <React.Fragment>
-            <Row className='bio-background py-3 px-0' style={{backgroundImage: `url(${baseUrl}'/img/plant2.jpeg')`}}>
+            <Row className='bio-background py-3 px-0' style={{backgroundImage: `url(${baseUrl}/img/plant2.jpeg)`}}>
                 <Col className='col-9 col-md-8 mx-auto p-0'>
-                    <Card className='bio mx-auto p-4 h-100'>
+                    <Card className='bio mx-auto p-4'>
                     <p>
                         Hi, I'm Megan. <br /> 
                         I have experience coding in React and React Native (with Redux) 
@@ -20,32 +21,14 @@ const Bio = (props) => {
                         which is based in C, and fell in love with coding. 
                         This began a move toward software development, culminating in enrollment in 
                         Nucamp Full-Stack Bootcamp and a decision to make a career change.  <br /><br />
-                        I am most interested in creating efficient, beautiful, and well-designed
-                        user interfaces, whether web or mobile, but I am also eager to learn and work
+                        I am most interested in using logic to solve problems and build great products. 
+                        That could mean creating efficient, beautiful, and well-designed
+                        user interfaces, whether web or mobile. But, I am also eager to learn and work
                         on the backend to create thoughtful and efficient systems.
 
                     </p>
                     </Card>
                 </Col>
-                {/*card experiment I'm hesitant to delete
-                <Col className='col-3 col-md-4'>
-                    <Card className='projectCard text-center h-100 p-2'>
-                        <a href="https://github.com/mcdevittbass?tab=repositories" target="_blank" rel="noopener noreferrer" title="GitHub Page">
-                            <i className="fa fa-github fa-5x fa-inverse"></i>
-                        </a>
-                        <CardText>Github</CardText>
-                        <br />
-                        <a role="button" href="/img/software-resume.pdf" target="_blank" rel="noopener noreferrer" title="Resume">
-                            <i className="fa fa-file-pdf-o fa-5x fa-inverse"></i>
-                        </a>
-                        <CardText>Resume</CardText>
-                        <br />
-                        <a role="button" href="mailto:mcdevittbass@gmail.com" target="_blank" rel="noopener noreferrer" title="Email">
-                            <i className="fa fa-envelope fa-5x fa-inverse"></i>
-                        </a>
-                        <CardText>Email</CardText>
-                    </Card>
-    </Col>*/}
             </Row>
         </React.Fragment>
     );

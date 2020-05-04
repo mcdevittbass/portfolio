@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Row, Col, Container, Jumbotron, Button} from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 
-
+//change the display on mouseover using setState method
 class Intro extends Component {
     constructor(props) {
         super(props);
@@ -27,8 +27,8 @@ class Intro extends Component {
 
     render() {
         const bgColor = this.state.bgColor;
-        const display = this.state.hiddenText;
-        const noDisplay = this.state.shownText;
+        const joke = this.state.hiddenText;
+        const intro = this.state.shownText;
         return(
             <React.Fragment>
                 <Container className="h-100 mt-10">
@@ -38,11 +38,11 @@ class Intro extends Component {
                                 className="intro-card mx-auto" 
                                 onMouseEnter={this.handleMouseEnter} 
                                 onMouseLeave={this.handleMouseLeave}>
-                                <div style={{display: noDisplay}}>
+                                <div style={{display: intro}}>
                                     <h1 className="text-center">Megan McDevitt</h1>
                                     <h3 className="lead text-center">The best <span style={{fontWeight: 'bold', color: '#83C5BE'}}>Full Stack Developer</span> on the planet...</h3>
                                 </div>
-                                <div style={{display: display}} className="text-center">
+                                <div style={{display: joke}} className="text-center">
                                     <h1>Depending on the planet...</h1>
                                     <hr class="my-4" />
                                     <NavLink to="/info">

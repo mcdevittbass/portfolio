@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import Intro from './IntroComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { InfoPage } from './InfoComponent';

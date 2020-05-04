@@ -28,7 +28,7 @@ export const PROJECTS = [
         id: 'portfolio',
         title: "This Portfolio Site",
         code: 'https://github.com/mcdevittbass/portfolio',
-        site: '#',
+        
         text: 'I hope you are enjoying this website I created in React!',
         thumbnail: baseUrl + '/img/portfolio-site-whole.png',
         alt: 'Portfolio Site, Megan McDevitt'
