@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.scss';
 import Main from './components/MainComponent';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
-    <BrowserRouter basename='/portfolio'>
+    <Router basename='/portfolio'>
       <Main />
-    </BrowserRouter>
+    </Router>
   );
 }
 
