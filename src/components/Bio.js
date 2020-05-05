@@ -20,10 +20,10 @@ const Bio = (props) => {
                         and manipulate my own sounds using a program called Max/MSP, 
                         which is based in C, and fell in love with coding. 
                         This began a move toward software development, culminating in enrollment in 
-                        Nucamp Full-Stack Bootcamp and a decision to make a career change.  <br /><br />
+                        Nucamp Full Stack Bootcamp and a decision to make a career change.  <br /><br />
                         I am most interested in using logic to solve problems and build great products. 
                         That could mean creating efficient, beautiful, and well-designed
-                        user interfaces, whether web or mobile. But, I am also eager to learn and work
+                        user interfaces, whether web or mobile, and I am also eager to learn and work
                         on the backend to create thoughtful and efficient systems.
 
                     </p>

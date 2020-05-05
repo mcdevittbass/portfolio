@@ -8,7 +8,7 @@ export const PROJECTS = [
         subtitle: 'using Bootstrap',
         code: 'https://github.com/mcdevittbass/FivePointsBakeryBootstrap',
         site: 'https://mcdevittbass.github.io/FivePointsBakeryBootstrap/',
-        text: 'The Five Points Bakery website began as a design using Bootstrap. It includes modals, carousels, and custom buttons. I later converted it to React. It should be launching as their official website in 2020.',
+        text: 'The Five Points Bakery website began as a design using Bootstrap. It includes modals, carousels, forms, and custom buttons. I later converted it to React. It should be launching as their official website in 2020.',
         thumbnail: baseUrl + '/img/FP-Homepage-cropped.png',
         alt: 'Five Points Bakery, Bootstrap'
     },
