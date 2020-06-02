@@ -28,9 +28,30 @@ export const PROJECTS = [
         id: 'portfolio',
         title: "This Portfolio Site",
         code: 'https://github.com/mcdevittbass/portfolio',
-        
         text: 'I hope you are enjoying this website I created in React!',
         thumbnail: baseUrl + '/img/portfolio-site-whole.png',
         alt: 'Portfolio Site, Megan McDevitt'
+    },
+    {
+        key: 3,
+        id: 'raw-patch',
+        title: "On the raw and the cooked",
+        subtitle: "Max Patch",
+        patch: baseUrl + '/img/On-the-raw-patch.png',
+        performance: 'https://www.youtube.com/watch?v=WbuLw3Yd0j8',
+        text: 'I wrote this piece for double bass and electronics for one of my dissertation recitals in 2016. I made the electronic sounds and effects using Max/MSP.',
+        thumbnail: baseUrl + '/img/On-the-raw-rev-patch.png',
+        alt: 'Max Patch for piece "On the raw and the cooked"'
+    },
+    {
+        key: 3,
+        id: 'hysterics-patch',
+        title: "Hysterics",
+        subtitle: "Max Patch",
+        patch: baseUrl + '/img/Hysterics-screenshot.png',
+        performance: 'https://www.youtube.com/watch?v=2AQ5UxXgKl0',
+        text: 'This piece took a track and manipulated it at varying speeds and pitch shifts, eventually looping and dissintigrating. There are also pitch shifts from the instrument input, and some hysterical laughter from one of the performers (me). It was written for my double bass duo, Shade and Light, in 2018.',
+        thumbnail: baseUrl + '/img/Hysterics-screenshot.png',
+        alt: 'Max Patch for piece "Hysterics"'
     }
 ];

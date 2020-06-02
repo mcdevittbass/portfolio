@@ -13,12 +13,16 @@ export const InfoPage = (props) => {
                 <Header />
                 <Bio />
                 <SectionBreak text='Recent Projects' />
-                <Row className='justify-items-center px-3'>
+                <Row className='justify-content-center px-3'>
                     <ProjectCard items={PROJECTS[0]} />
                     <ProjectCard items={PROJECTS[1]} />
                     <ProjectCard items={PROJECTS[2]} />
                 </Row>
-                {/*<SectionBreak text='Max/MSP' />*/}
+                <SectionBreak text='Max/MSP' />
+                <Row className='justify-content-center px-3'>
+                    <ProjectCard items={PROJECTS[3]} />
+                    <ProjectCard items={PROJECTS[4]} />
+                </Row>
                 <Contact />
 
         </React.Fragment>
