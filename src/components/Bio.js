@@ -11,7 +11,7 @@ const Bio = (props) => {
                     <Card className='bio mx-auto p-4'>
                     <p>
                         Hi, I'm Megan. <br /> 
-                        I have experience coding in React and React Native (with Redux) 
+                        I have experience coding in React and React Native (with Redux), NodeJS, Express, and MongoDB, 
                         in addition to HTML, CSS (with SCSS and Bootstrap), Javascript, C, 
                         and using Git/GitHub for version control. <br /><br />
                         I spent the last decade of my life as a professional musician and 
@@ -23,10 +23,11 @@ const Bio = (props) => {
                         Nucamp Full Stack Bootcamp and a decision to make a career change.  <br /><br />
                         I am most interested in using logic to solve problems and build great products. 
                         That could mean creating efficient, beautiful, and well-designed
-                        user interfaces, whether web or mobile, and I am also eager to learn and work
-                        on the backend to create thoughtful and efficient systems.
-
+                        user interfaces (web or mobile), or
+                        on the backend to create thoughtful and efficient systems. <br />
                     </p>
+                    <a style={{color: "#d3d3d3", textAlign: "center"}} href="https://www.huffpost.com/entry/composing-code-why-musici_b_10714288?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cubGlua2VkaW4uY29tL2ZlZWQvdXBkYXRlL3VybjpsaTphY3Rpdml0eTo2NjcxODc5NTUxNDI3MDY3OTA0Lw&guce_referrer_sig=AQAAAHGPQHplB_1Fmq8S_y8uomk21eo3Uik0dlFVwZV-KMymMqA2LZbMsfWSwXXk-so11vyuxiHhlnJsh_EVhIPj-O-DjDwRBmxnmkjjGuuWwK8zEKM7DCT76wW7pB1OUl-h1yznLjse2R9cnHK4YVByXt_ijLYEQgpghSwC5ZZsLuJ6"
+                        target= "_blank" rel="noopener noreferrer"><strong>Why should you hire a musician?</strong></a>
                     </Card>
                 </Col>
             </Row>
