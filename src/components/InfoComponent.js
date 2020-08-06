@@ -17,6 +17,7 @@ export const InfoPage = (props) => {
                     <ProjectCard items={PROJECTS[0]} />
                     <ProjectCard items={PROJECTS[1]} />
                     <ProjectCard items={PROJECTS[2]} />
+                    <ProjectCard items={PROJECTS[5]} />
                 </Row>
                 <SectionBreak text='Max/MSP' />
                 <Row className='justify-content-center px-3'>

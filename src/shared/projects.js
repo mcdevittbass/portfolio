@@ -44,7 +44,7 @@ export const PROJECTS = [
         alt: 'Max Patch for piece "On the raw and the cooked"'
     },
     {
-        key: 3,
+        key: 4,
         id: 'hysterics-patch',
         title: "Hysterics",
         subtitle: "Max Patch",
@@ -53,5 +53,15 @@ export const PROJECTS = [
         text: 'This piece took a track and manipulated it at varying speeds and pitch shifts, eventually looping and dissintigrating. There are also pitch shifts from the instrument input, and some hysterical laughter from one of the performers (me). It was written for my double bass duo, Shade and Light, in 2018.',
         thumbnail: baseUrl + '/img/Hysterics-screenshot.png',
         alt: 'Max Patch for piece "Hysterics"'
+    },
+    {
+        key: 5,
+        id: 'chat-bot',
+        title: "Thesaurus Chat Bot",
+        code: 'https://github.com/mcdevittbass/chat-bot-thesaurus',
+        text: 'I made this project during a MintBean Hackathon. It uses Merriam Webster\'s thesaurus API and Botkit library for Node',
+        site: 'https://chat-bot-by-megan.herokuapp.com/',
+        thumbnail: baseUrl + '/img/chat-bot.png',
+        alt: 'Thesaurus Chat Bot site'
     }
 ];
