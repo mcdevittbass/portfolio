@@ -41,6 +41,14 @@ const Contact = (props) => {
                     <CardText className='text-center nowrap'>Email Me</CardText>
                 </Card>
             </Col>
+            <Col className='col-sm-2 text-center'>
+                <Card className='header-icon justify-items-center'>
+                    <a role="button" href="https://www.linkedin.com/in/megmcd/" target="_blank" rel="noopener noreferrer" title="Email">
+                        <i className="fa fa-linkedin fa-5x fa-inverse"></i>
+                    </a>
+                    <CardText className='text-center nowrap'>LinkedIn</CardText>
+                </Card>
+            </Col>
         </Row>
     );
 }

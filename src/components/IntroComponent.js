@@ -34,7 +34,7 @@ const Intro = (props) => {
                             </div>
                             <div style={{display: joke}} className="text-center">
                                 <h1>Depending on the planet...</h1>
-                                <hr class="my-4" />
+                                <hr className="my-4" />
                                 <NavLink to="/info">
                                     <Button id="moreButton">More about Megan</Button>
                                 </NavLink>
