@@ -8,21 +8,20 @@ import SectionBreak from './SectionBreak';
 
 
 export const InfoPage = (props) => {
+    const codingProjects = PROJECTS.filter(item => item.code);
+    const maxProjects = PROJECTS.filter(item => item.patch);
+
     return (
         <React.Fragment>
                 <Header />
                 <Bio />
                 <SectionBreak text='Recent Projects' />
                 <Row className='justify-content-center px-3'>
-                    <ProjectCard items={PROJECTS[0]} />
-                    <ProjectCard items={PROJECTS[1]} />
-                    <ProjectCard items={PROJECTS[2]} />
-                    <ProjectCard items={PROJECTS[5]} />
+                    {codingProjects.map(item => <ProjectCard items={item}/>).reverse()}
                 </Row>
                 <SectionBreak text='Max/MSP' />
                 <Row className='justify-content-center px-3'>
-                    <ProjectCard items={PROJECTS[3]} />
-                    <ProjectCard items={PROJECTS[4]} />
+                    {maxProjects.map(item => <ProjectCard items={item}/>)}
                 </Row>
                 <Contact />
 

@@ -63,5 +63,15 @@ export const PROJECTS = [
         site: 'https://chat-bot-by-megan.herokuapp.com/',
         thumbnail: baseUrl + '/img/chat-bot.png',
         alt: 'Thesaurus Chat Bot site'
+    },
+    {
+        key: 6,
+        id: 'space-game',
+        title: "Intergalactic Trash Collector",
+        code: 'https://github.com/mcdevittbass/game-day',
+        text: 'This is another MintBean Hackathon project. It uses Phaser JS. Try to collect space garbage before you get hit by an asteroid!',
+        site: 'https://mcdevittbass.github.io/game-day',
+        thumbnail: baseUrl + '/img/ITC-photo.png',
+        alt: 'Intergalactic Trash Collector game'
     }
 ];
