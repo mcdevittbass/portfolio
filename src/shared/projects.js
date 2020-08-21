@@ -61,7 +61,7 @@ export const PROJECTS = [
         code: 'https://github.com/mcdevittbass/chat-bot-thesaurus',
         text: 'I made this project during a MintBean Hackathon. It uses Merriam Webster\'s thesaurus API and Botkit library for Node.',
         site: 'https://chat-bot-by-megan.herokuapp.com/',
-        thumbnail: baseUrl + '/img/chat-bot.png',
+        thumbnail: baseUrl + '/img/chat-bot-photo.png',
         alt: 'Thesaurus Chat Bot site'
     },
     {
