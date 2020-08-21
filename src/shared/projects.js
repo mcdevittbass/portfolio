@@ -59,7 +59,7 @@ export const PROJECTS = [
         id: 'chat-bot',
         title: "Thesaurus Chat Bot",
         code: 'https://github.com/mcdevittbass/chat-bot-thesaurus',
-        text: 'I made this project during a MintBean Hackathon. It uses Merriam Webster\'s thesaurus API and Botkit library for Node',
+        text: 'I made this project during a MintBean Hackathon. It uses Merriam Webster\'s thesaurus API and Botkit library for Node.',
         site: 'https://chat-bot-by-megan.herokuapp.com/',
         thumbnail: baseUrl + '/img/chat-bot.png',
         alt: 'Thesaurus Chat Bot site'
@@ -69,9 +69,19 @@ export const PROJECTS = [
         id: 'space-game',
         title: "Intergalactic Trash Collector",
         code: 'https://github.com/mcdevittbass/game-day',
-        text: 'This is another MintBean Hackathon project. It uses Phaser JS. Try to collect space garbage before you get hit by an asteroid!',
+        text: 'This is a MintBean Hackathon project. It uses Phaser JS. Try to collect space garbage before you get hit by an asteroid!',
         site: 'https://mcdevittbass.github.io/game-day',
         thumbnail: baseUrl + '/img/ITC-photo.png',
         alt: 'Intergalactic Trash Collector game'
+    },
+    {
+        key: 7,
+        id: 'to-do',
+        title: "Simple To Do App",
+        code: 'https://github.com/mcdevittbass/to-do',
+        text: 'This simple to-do app uses React and Ant Design. It is deployed on Github Pages.',
+        site: 'https://mcdevittbass.github.io/to-do',
+        thumbnail: baseUrl + '/img/to-do.png',
+        alt: 'To Do App'
     }
 ];

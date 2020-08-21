@@ -12,7 +12,7 @@ const Bio = (props) => {
                     <p>
                         Hi, I'm Megan. <br /> 
                         I have experience coding in React and React Native (with Redux), NodeJS, Express, and MongoDB, 
-                        in addition to HTML, CSS (with SCSS and Bootstrap), Javascript, C, 
+                        in addition to HTML, CSS (with SCSS and Bootstrap), Javascript, C, Python,
                         and using Git/GitHub for version control. <br /><br />
                         I spent the last decade of my life as a professional musician and 
                         music teacher. While studying for my doctorate in double bass performance,
