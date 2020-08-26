@@ -83,5 +83,16 @@ export const PROJECTS = [
         site: 'https://mcdevittbass.github.io/to-do',
         thumbnail: baseUrl + '/img/to-do.png',
         alt: 'To Do App'
+    },
+    {
+        key: 8,
+        id: 'in-out-patch',
+        title: "IN/OUT for double bass, electronics, and Mugic motion sensor",
+        subtitle: "Max Patch",
+        patch: baseUrl + '/img/in-out-photo.png',
+        performance: 'https://www.youtube.com/watch?v=a7S4gw2sFx8',
+        text: 'I wrote and performed this piece in the Future Music Lab program at Atlantic Music Festival in the summer of 2017. I made the patch for the audio as well as visual components, both of which contained triggers from the motion sensor. I also performed the piece on bass.',
+        thumbnail: baseUrl + '/img/in-out-photo.png',
+        alt: 'Max Patch for piece "IN/OUT"'
     }
 ];
