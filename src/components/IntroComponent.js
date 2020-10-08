@@ -2,18 +2,18 @@ import React, { useState } from 'react';
 import {Row, Col, Container, Jumbotron, Button} from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 
-const Intro = (props) => {
+const Intro = () => {
     const [bgColor, setBgColor] = useState(null);
     const [intro, setIntro] = useState('block');
     const [joke, setJoke] = useState('none');
 
-    const handleMouseEnter = (event) => {
+    const handleMouseEnter = () => {
         setBgColor('#011638');
         setIntro('none');
         setJoke('block');
     }
 
-    const handleMouseLeave = (event) => {
+    const handleMouseLeave = () => {
         setBgColor(null);
         setIntro('block');
         setJoke('none');

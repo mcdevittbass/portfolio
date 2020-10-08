@@ -94,5 +94,15 @@ export const PROJECTS = [
         text: 'I wrote and performed this piece in the Future Music Lab program at Atlantic Music Festival in the summer of 2017. I made the patch for the audio as well as visual components, both of which contained triggers from the motion sensor. I also performed the piece on bass.',
         thumbnail: baseUrl + '/img/in-out-photo.png',
         alt: 'Max Patch for piece "IN/OUT"'
+    },
+    {
+        key: 9,
+        id: 'circle-up',
+        title: "Circle Up",
+        code: 'https://github.com/mcdevittbass/circle-time',
+        text: 'This app was created for Neutral Zone in Ann Arbor. It is designed to facilitate conversations among their students, with the ability to contribute words based on a prompt and pass a talking stick around the circle. It was made using React and Konva.',
+        site: 'https://circle-up.herokuapp.com/',
+        thumbnail: baseUrl + '/img/circle-up.png',
+        alt: 'Circle Up App'
     }
 ];

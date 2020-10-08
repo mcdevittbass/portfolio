@@ -7,7 +7,7 @@ import { PROJECTS } from '../shared/projects';
 import SectionBreak from './SectionBreak';
 
 
-export const InfoPage = (props) => {
+export const InfoPage = () => {
     const codingProjects = PROJECTS.filter(item => item.code);
     const maxProjects = PROJECTS.filter(item => item.patch);
 
