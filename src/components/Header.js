@@ -20,7 +20,7 @@ export const Header = () => {
                 </Col>
                 <Col className=' col-6 col-sm-2 text-center'>
                     <Card className='header-icon justify-items-center'>
-                        <a role="button" href={baseUrl + '/img/McDevitt-Resume-Aug-2020.pdf'} target="_blank" rel="noopener noreferrer" title="Resume">
+                        <a role="button" href={baseUrl + '/img/McDevitt-Resume-Nov-2020.pdf'} target="_blank" rel="noopener noreferrer" title="Resume">
                             <i className="fa fa-file-pdf-o fa-5x fa-inverse"></i>
                         </a>
                         <CardText className='text-center nowrap'>Resume</CardText>
