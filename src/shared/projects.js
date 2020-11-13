@@ -104,5 +104,15 @@ export const PROJECTS = [
         site: 'https://circle-up.herokuapp.com/',
         thumbnail: baseUrl + '/img/circle-up.png',
         alt: 'Circle Up App'
+    },
+    {
+        key: 10,
+        id: 'autocomplete',
+        title: 'Autocomplete', 
+        subtitle: 'Vanilla JS, HTML/CSS',
+        code: 'https://github.com/mcdevittbass/autocomplete',
+        text: 'This is a vanilla Javascript project that has created four autocomplete elements with an instantiated class. It can handle local data as well as API calls. There is no public site, but if you are curious, feel free to clone the repo and run it yourself!',
+        thumbnail: baseUrl + '/img/autocompleteThumbnail.png',
+        alt: 'Autocomplete'
     }
 ];
